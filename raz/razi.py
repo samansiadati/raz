@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 # This method create a linear regression
 def lreg(x, y):
-    lreg = LinearRegression().fit(X, y)
+    lreg = LinearRegression().fit(x, y)
     lreg_score = lreg.score(x, y)
     lreg_coef = lreg.coef_
     lreg_interc = lreg.intercept_
