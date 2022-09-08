@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='raz',
     packages=['raz'],
-    version='0.1.0',
+    version='0.1.1',
     license='MIT',
     description='Testing installation of Package',
     long_description=long_description,

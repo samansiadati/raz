@@ -14,5 +14,5 @@ def lreg(x, y):
     lreg_score = lreg.score(x, y)
     lreg_coef = lreg.coef_
     lreg_interc = lreg.intercept_
-    return lreg, lreg_score, lreg_coef, reg.intercept_ 
+    return lreg, lreg_score, lreg_coef, lreg_interc
      
