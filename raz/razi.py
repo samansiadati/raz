@@ -11,9 +11,5 @@ logger = logging.getLogger(__name__)
 # This method create a linear regression
 def lreg(x, y):
     model = LinearRegression().fit(x, y)
-    return {
-        "model": model,
-        "score": model.score(x, y),
-        "coef": model.coef_,
-        "intercept": model.intercept_
-    }
+    return model, model.score(x, y), model.coef_, model.intercept_
+
